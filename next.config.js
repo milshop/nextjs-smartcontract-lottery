@@ -3,9 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-
-const images = {
-  loader: "imgix",
-  path: "https://noop/",
-}
-module.exports = nextConfig,images
+module.exports = { nextConfig, images: {loader: "custom"}}
